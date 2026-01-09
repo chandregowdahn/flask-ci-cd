@@ -10,11 +10,11 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git( 
-                    branch: 'main'.
+                git(
+                    branch: 'main',
                     credentialsId: 'github-creds',
                     url: 'https://github.com/chandregowdahn/flask-ci-cd.git'
-                    )
+                )
             }
         }
 
@@ -55,3 +55,4 @@ pipeline {
         }
     }
 }
+
