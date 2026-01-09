@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git credentialsId: 'github-creds',
-                    url: 'https://github.com/your-username/flask-ci-cd.git'
+                    url: 'https://github.com/chandregowdahn/flask-ci-cd.git'
             }
         }
 
