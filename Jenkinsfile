@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "yourdockerhub/flask-app"
+        IMAGE_NAME = "gowdahn/flask-app"
         SONARQUBE = "SonarQube"
     }
 
